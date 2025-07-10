@@ -13,6 +13,7 @@
 
 }
 .primary-btn{
+  
   align-items: center;
   background-color: #4e47ff;
   padding: 5px 30px;
@@ -24,7 +25,9 @@
   
 
 }
-
+.primary-btn:hover{
+  background-color: antiquewhite;
+}
 /* header section */
 .header-container{
   background-image: url(../Assets/Hero-bg.png);background-position: center;
@@ -206,3 +209,57 @@ main{
 }
 
 /* lets section styles */
+.lets-container{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.lets-title{
+  font-size: 97px;
+  font-weight: 700px;
+}
+form .form-container legend label{
+  display: block;
+  margin-top: 30px;
+  
+}
+.message-title{
+  font-weight: 500px;
+  font-size: 20px;
+}
+/* .box-style{
+  padding: 10px 50px;
+  width: 500px;
+  height: 70px;
+  border: 1px solid;
+  border-radius: 5px;
+} */
+ input{
+  width: 90%;
+  padding: 30px;
+  margin: 5px 5px;
+  border: 1px solid;
+  border-radius: 5px;
+ }
+ ::placeholder{
+  font-size: 24px;
+  font-weight: 400px;
+  color:
+ }
+ .textarea-style{
+  width: 90%;
+  padding: 30px;
+  
+  margin: 5px 5px;
+  border: 1px solid;
+  border-radius: 5px;
+ }
+ .form-container{
+  width: 497px;
+  height: 490px;
+  margin-left: 30px ;
+ }
+ .form-btn{
+  padding: 10px 280px;
+  font-size: 20px;
+ }

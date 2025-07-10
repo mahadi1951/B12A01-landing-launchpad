@@ -131,23 +131,31 @@
             </div>
          </section>
 
-         /* lets section styles */
+         <!-- lets section styles -->
 
          <section>
-            <div>
-                <h1>Let’s Get in Touch</h1>
+            <div class="lets-container">
+                <h1 class="lets-title">Let’s Get in <br>Touch</h1>
                 <div>
                     <form >
-                        <fieldset>
-                            <legend>
-                                <label for="">Email</label>
-                                <input type="email""" id="">
-                            </legend>
-                        </fieldset>
+                    <fieldset class="form-container">
+                        <legend>
+                            <label for=""><span class="message-title">Email</span></label>
+                                <input class="box-style" type="email" name="" id="" placeholder="example@gmail.com">
+                                <label for=""><span class="message-title">Name</span></label>
+                                <input class="box-style" type="text" placeholder="Full Name">
+                                <label for=""><span class="message-title">Message</span></label>
+                                <textarea class="textarea-style" name="" id="" placeholder="Wirte Your Message"></textarea>
+                                <button class="primary-btn form-btn">Get in Touch</button>
+                        </legend>
+                    </fieldset>    
+                                
+                           
                     </form>
                 </div>
             </div>
          </section>
     </main>
+    
 </body>
 </html>
