@@ -25,12 +25,12 @@
   
 
 }
-.primary-btn:hover{
-  background-color: antiquewhite;
-}
+
+
 /* header section */
 .header-container{
-  background-image: url(../Assets/Hero-bg.png);background-position: center;
+  background-image: url(../Assets/Hero-bg.png);
+  background-position: center;
   background-size: cover;
   height:700px;
   width: 100%;
@@ -52,7 +52,6 @@
 }
 
 .banner{
-  text: center;
   margin: auto;
   margin-top: 150px;
   padding: 0 0 0 30px;
@@ -61,6 +60,7 @@
   
 }
 .banner-title{
+  text-align: center;
   font-weight: 700px;
   font-size: 66px;
   margin: 0 auto;
@@ -111,6 +111,7 @@ main{
 /* productive users style */
 .product-container{
   width: 950px;
+  
   margin: 0 auto;
   background-color: #e5e7ff;
   border-radius: 24px;
@@ -137,7 +138,6 @@ main{
   
 }
 
-
  /* <!-- what section styles --!> */
 
 
@@ -152,12 +152,15 @@ main{
 }
 .card-container{
   display: flex;
-  height: 500px;
+  gap: 30px;
+  /* height: 500px; */
 } 
  .card{
   background-color: #fafcff;
   height: 240px;
-  width: 760px;
+  width: 310px;
+   box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  padding: 20px;
  }
 
 .date{
@@ -213,54 +216,60 @@ main{
 .lets-title{
   font-size: 97px;
   font-weight: 700px;
+  padding-left: 50px;
+  
 }
-form .form-container legend label{
+.form-container{
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  max-width: 800px;
+  /* margin: auto; */
+}
+.form-group{
+  margin-bottom: 15px;
+}
+.email-field{
+  padding: 10px 60px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+.name-field{
+  padding: 10px 60px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+label{
   display: block;
-  margin-top: 30px;
+  margin-bottom: 5px;
   
 }
-.message-title{
-  font-weight: 500px;
-  font-size: 20px;
+textarea{
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 10px;
 }
-/* .box-style{
-  padding: 10px 50px;
-  width: 500px;
-  height: 70px;
-  border: 1px solid;
-  border-radius: 5px;
-} */
- input{
-  width: 90%;
-  padding: 30px;
-  margin: 5px 5px;
-  border: 1px solid;
-  border-radius: 5px;
- }
- ::placeholder{
-  font-size: 24px;
-  font-weight: 400px;
-  color:
- }
- .textarea-style{
-  width: 90%;
-  padding: 30px;
-  
-  margin: 5px 5px;
-  border: 1px solid;
-  border-radius: 5px;
- }
- .form-container{
-  width: 497px;
-  height: 450px;
-  margin-left: 30px ;
- }
- .form-btn{
-  padding: 10px 280px;
-  font-size: 20px;
- }
- 
+button{
+  padding: 10px 110px;
+  background-color: #4e47ff;;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+
+}
+button:hover {
+  background-color: #4cae4c;
+}
  /* footer styles */
+ .footer-container{
+  background-color: #e5e7ff;
+  height: 400px;
+ }
  .footer-title{
   font-weight: 900px;
   font-size: 100px;
